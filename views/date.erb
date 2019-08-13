@@ -1,2 +1,9 @@
-<%today = DateTime.new%>
-<h1><%=The date is"#(today)"%></h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Date</title>
+  </head>
+  <body>
+    <p><%= "The date is #{Date.today.strftime("%A, %B %d, %Y")}" %></p>
+  </body>
+</html>
